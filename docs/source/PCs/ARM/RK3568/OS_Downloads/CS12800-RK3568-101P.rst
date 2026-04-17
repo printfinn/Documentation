@@ -1,0 +1,37 @@
+:pdf-build: False
+
+
+PPC-A55-101 (PN: CS12800-RK3568-101P)
+#######################################
+
+We compress the img file to img.xz file which will reduce file size and save time to download it to use. 
+But we need decompress it to img file when we use `RKDevtool <https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/RK3568/Tools/RKDevTool_Release_v2.93.zip>`_ to download it to target board.
+
+.. _CS12800P-android:
+
+Android11
+----------
+
+| :download:`prebuilt-rk3568v1-cs12800-1280800-lvds-android11-emmc-20230317.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/10/Android11/prebuilt-rk3568v1-cs12800-1280800-lvds-android11-emmc-20230317.img.xz>`
+
+.. _CS12800P-debian:
+
+Debian11
+--------
+
+| **eMMC**
+| :download:`prebuilt-rk3568-cs12800-1280800-lvds-debian11-20231221.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/10/Debian11/prebuilt-rk3568-cs12800-1280800-lvds-debian11-20231221.img.xz>`
+
+| **SD**
+| :download:`prebuilt-rk3568-cs12800-1280800-lvds-debian11-sd-20231030.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/10/Debian11/prebuilt-rk3568-cs12800-1280800-lvds-debian11-sd-20231030.img.xz>`
+
+
+.. _CS12800P-linuxQt:
+
+Buildroot Linux Qt 5.15
+-----------------------
+
+| :download:`prebuilt-rk3568-cs12800-1280800-lvds-buildroot-20231107.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/10/BuildrootQt5.15/prebuilt-rk3568-cs12800-1280800-lvds-buildroot-20231107.img>`
+
+
+

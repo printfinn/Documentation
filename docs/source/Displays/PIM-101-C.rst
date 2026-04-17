@@ -1,0 +1,104 @@
+:pdf-title: PIM-101-C
+:pdf-subtitle: PN: CS-D101
+:pdf-filename: PIM-101-C
+:pdf-type: displays
+:pdf-revision: 1.1
+
+.. include:: Resources/shared_replaces
+
+.. |product| replace:: PIM-101-C
+
+.. |PN| replace:: PN: CS-D101
+
+.. |Product| replace:: The |product| industrial display
+
+.. |dispsize| replace:: 10.1"
+
+.. |res| replace:: 1280 x 800 (4:3)
+
+.. |bright| replace:: 350 |cd|
+
+.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |con_ratio| replace:: 600:1
+
+.. |glass_thickness| replace:: 3mm
+
+.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
+
+.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 170°
+
+.. |res_time| replace:: 35ms (GTG)
+
+.. |disp_col| replace:: 16.2M Colors
+
+.. |in_res| replace:: |res| @ 60Hz
+
+.. |connector| replace:: VGA / DVI / HDMI
+
+.. |dim| replace:: 	253.20 x 171.8 x 35mm
+
+.. |pkg_size| replace:: 332 x 225 x 60mm
+
+.. |weight| replace:: 1.1kg
+
+.. |mount| replace:: VESA, Panel
+
+.. |pwr| replace:: ≤ 14W
+
+.. |standby| replace:: ≤ 2W
+
+.. |vin_rng| replace:: 12V 3A DC(default), 9V-30V DC(optional)
+
+.. |work_temp| replace:: From -20°C to +70°C, 90% RH
+
+.. |storage_temp| replace:: From -30°C to +80°C, 90% RH
+
+.. _product_link: https://chipsee.com/product/pim-101-c/
+
+.. |product_link| replace:: PIM-101-C
+
+.. |Cover PNG| image:: /Media/Displays/PIM-101-C/pim-101-front.png
+
+.. |Front View| image:: /Media/Displays/PIM-101-C/pim-101-front.png
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Displays/PIM-101-C/pim-101-back.jpg
+                  :class: product-img
+
+.. |Side View| image:: /Media/Displays/PIM-101-C/pim-101-bottom.jpg
+                  :class: product-img
+
+
+.. _PIM-101-C:
+
+|product|
+#########
+
+.. rubric:: *Version 1.1*
+    :class: html-only
+
+.. include:: Shared/three_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+Specification
+=============
+
+.. include:: Resources/table
+
+.. include:: Resources/mounting
+
+.. include:: Resources/mechspecs
+
+.. figure:: /Media/Displays/PIM-101-C/pim-101-sd.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Technical Drawing
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support

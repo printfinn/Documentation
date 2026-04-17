@@ -1,0 +1,115 @@
+GNSS/GPS
+--------
+
+GPS is integrated in the CAT-1 SIM7670G-MNSV module and CAT-4 Quectel EC25 4G/LTE module, if your product comes with one of these module, and a GPS antenna, you can enable the GPS feature.
+
+GPS (CAT-4 Module)
+******************
+
+You can test with the *Chipsee hardware test* program, click **GPS Enable** button, you should see some random code(GPS information) in the text box. Wait a few minutes for GPS to become stable.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/gps_1_CM5.webp
+    :align: center
+    :width: 800
+
+  *Click GPS Enable*
+
+You can also use GPS programmatically with serial port.
+
+GPS Port: **/dev/ttyUSB1**
+
+AT port: **/dev/ttyUSB2**
+
+In the first terminal, we use cat to listen for GPS info:
+
+.. code-block:: bash
+
+  cat /dev/ttyUSB1
+  # hit Enter, the port will keep listening
+  # until any information comes to the port(after you send AT command to AT port)
+
+In the second terminal, send AT instructions:
+
+.. code-block:: bash
+
+  $ microcom –s 9600 -p /dev/ttyUSB2
+  ATE1 # Enable displaying. Hit Enter after you type ATE1
+  AT+QGPSCFG="gpsnmeatype",31 # Turn on all output type, GGA/RMC/GSV/GSA/VTG, this setting will be saved to NVRAM, persists after reboot
+  AT+QGPS=1 # enable GPS, wait some minutes, you can get data from terminal.
+
+.. note::
+
+  Ensure the antenna has clear view of the sky — GPS needs time to acquire satellites (can take 30s–2min cold start).
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/gps_2_CM5.webp
+    :align: center
+    :width: 960
+
+  *Read GPS from AT Command and NMEA Stream*
+
+To disable GPS:
+
+.. code-block:: bash
+
+  AT+QGPSEND # disable GPS
+
+To exit microcom:
+
+.. code-block:: bash
+
+  # Press:
+  # Ctrl + \
+  # Followed by:
+  quit
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/gps_3_CM5.webp
+    :align: center
+    :width: 480
+
+  *Quit from microcom*  
+
+GPS (CAT-1 Module)
+******************
+
+You can use GPS programmatically with serial port on the SIM7670G-MNSV module.
+
+GPS port: **/dev/ttyACM0**
+
+AT port: **/dev/ttyACM0**
+
+Serial port connection: Baudrate 9600 @ 8-N-1.
+
+You can use the CuteCom program to test AT commands:
+
+.. code-block:: bash
+
+  AT+SIMCOMATI # Check CAT-1 module info.
+ 
+  AT+CGNSSPWR=1 # Enable GPS. Command is not persisted across reboot.
+  
+  AT+CGNSSINFO # Query GPS infomation
+
+After each AT command to query GPS, one response is returned.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/gps_4_CM5.webp
+    :align: center
+    :width: 800
+
+  *GPS/GNSS on CAT-1 Module*  
+
+.. note::
+
+  Ensure the antenna has clear view of the sky — GPS needs time to acquire satellites (can take 30s–2min cold start).
+
+
+
+
+:pagebreak:`True`

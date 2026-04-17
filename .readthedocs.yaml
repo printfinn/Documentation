@@ -1,0 +1,21 @@
+# .readthedocs.yaml
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+# Required
+version: 2
+
+# Set the version of Python and other tools you might need
+build:
+  os: ubuntu-22.04
+  apt_packages:
+    - default-jre  # This seems to be ignored
+  tools:
+    python: "3.9"
+  # We can only define the content of the final deployment, if we do the complete build on our own.apt_packages:
+  # So we need to handle package installation, build start and copying the right files for deployment.
+  commands:
+    - pip install -r docs/source/requirements.txt # Install requirements.txt
+    - sphinx-pdf-generate -b html docs/source docs/_build/html  # Build docs and PDF using sphinx-pdf-generate
+    - mkdir -p _readthedocs/html/
+    - cp -r docs/_build/html/* _readthedocs/html/

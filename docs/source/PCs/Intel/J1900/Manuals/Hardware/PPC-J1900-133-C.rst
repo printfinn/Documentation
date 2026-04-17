@@ -1,0 +1,104 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-J1900-133-C
+
+.. |Product| replace:: The |product| Industrial Panel PC 
+
+.. |PN| replace:: PN: |product|
+
+.. include:: Resources/J1900-V2/104/base_replaces
+
+.. |weight| replace:: 3000g
+
+.. |dim| replace:: 355 x 225 x 55mm
+
+.. |dispsize| replace:: 13.3"
+  
+.. |res| replace:: 1920 x 1080
+
+.. |bright| replace:: 300 |cd|
+
+.. |tscreen| replace:: Multi-point capacitive touch screen
+
+.. |opt_1| replace:: Optional, module available from the Chipsee store
+
+.. |opt_2| replace:: Optional, module available from the Chipsee store
+
+.. |pwr| replace:: 22W
+
+.. |operating_temp| replace:: From 0°C to 60°C
+
+.. |storage_temp| replace:: From -20°C to 75°C
+
+.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
+
+.. _product_link: https://chipsee.com/product/ppc-j1900-133-c/
+
+.. |product_link| replace:: |product|
+
+.. |ver1.1_download| replace:: :download:`Download Archived Manual: PPC-J1900-133-C-ver1.1.pdf <PDF/PPC-J1900-133-C-ver1.1.pdf>`
+
+.. |Cover PNG| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Front.png
+
+.. |Front View| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Back.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Side2.jpg
+                  :class: product-img 
+
+.. _PPC-J1900-133-C:
+
+
+|product|
+#########
+
+.. rubric:: *Version 2.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/J1900-V2/overview
+
+.. include:: Resources/J1900-V2/changes
+
+.. include:: Resources/J1900-V2/migrations/20250701_J1900_all
+
+.. include:: Resources/J1900-V2/ordering
+
+.. include:: Resources/J1900-V2/opt_features_1
+
+.. include:: Resources/J1900-V2/HW_features
+
+.. include:: Resources/J1900-V2/table
+
+.. include:: Resources/J1900-V2/power
+
+.. include:: Resources/J1900-V2/cap_screen
+
+.. include:: Resources/J1900-V2/104/connectivity_104
+
+.. include:: Resources/J1900-V2/USB
+
+.. include:: Resources/J1900-V2/LAN
+
+.. include:: Resources/J1900-V2/104/HDMI
+
+.. include:: Resources/J1900-V2/mounting
+
+.. include:: Resources/J1900-V2/mechspecs
+
+.. figure:: /Media/Intel/J1900/133/PPC-J1900-133-C-TD.jpg
+   :align: center
+   :figclass: align-center
+
+   *PPC-J1900-133-C Technical Drawing*
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support

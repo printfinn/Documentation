@@ -1,0 +1,34 @@
+4G/LTE Module
+-------------
+
+|Product| is equipped with a mini-PCIe connector that can connect an optional 4G/LTE module. The customer will also need a SIM Card Holder and a 4G/LTE antenna connector to ensure 4G/LTE works. 
+
+SIM card does **NOT** support hot plug. **Power off** before inserting or removing SIM card.
+
+|m2_4g_conflict|
+
+.. rst-class:: text-center
+
+   |4g_module_image|
+
+   *mini-PCIe Connector & 4G Module*
+
+.. rst-class:: text-center
+
+   |4g_ant_img|
+
+   *4G/LTE Antenna*
+
+.. rst-class:: text-center
+
+   |sim_img|
+
+   *SIM Card Direction*
+
+.. attention::
+
+    The product does not come shipped with the 4G/LTE module by default. The customer can choose the 4G/LTE module option when placing an order, we will install all the necessary components. 
+
+
+:pagebreak:`True`
+

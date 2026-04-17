@@ -1,0 +1,77 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: CS86-BOX-J1900
+
+.. |Product| replace:: The |product| Industrial PC
+
+.. |dim| replace:: 136 x 126.2 x 38mm
+
+.. |PN| replace:: PN: CS86-BOX-J1900
+
+.. _product_link: https://chipsee.com/product/cs86-box-j1900/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-front.png
+
+.. |Front View| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-back.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-front1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-side.jpg
+                  :class: product-img 
+
+.. _CS86-BOX-J1900:
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/CS86-BOX-J1900/overview-box
+
+.. include:: Resources/CS86-BOX-J1900/ordering-box
+
+.. include:: Resources/CS86-BOX-J1900/opt_features_2
+
+.. include:: Resources/CS86-BOX-J1900/HW_features-box
+
+.. include:: Resources/CS86-BOX-J1900/table-box
+
+.. include:: Resources/CS86-BOX-J1900/power-box
+
+.. include:: Resources/CS86-BOX-J1900/connectivity-box
+
+.. include:: Resources/CS86-BOX-J1900/USB-box
+
+.. include:: Resources/CS86-BOX-J1900/LAN-box 
+
+.. include:: Resources/CS86-BOX-J1900/HDMI-VGA-box
+
+.. include:: Resources/CS86-BOX-J1900/audio-in-out-box 
+
+.. include:: Resources/CS86-BOX-J1900/WIFI-BT-box
+
+.. include:: Resources/CS86-BOX-J1900/mounting-box
+
+.. include:: Resources/CS86-BOX-J1900/mechspecs-box
+
+.. figure:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-TD.jpg
+   :align: center
+   :figclass: align-center
+   :target: ../../../../../_images/CS86-BOX-J1900-TD.jpg
+
+   *CS86-BOX-J1900 Technical Drawing*
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support

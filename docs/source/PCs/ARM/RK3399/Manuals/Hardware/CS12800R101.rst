@@ -1,0 +1,214 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: EPC/PPC-A72-101-C
+
+.. |productE| replace:: EPC-A72-101-C
+
+.. |productP| replace:: PPC-A72-101-C
+
+.. |PN| replace:: PN: CS12800R101
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 250 |cd|
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: 245 x 155 x 11mm
+
+.. |dimP| replace:: 280 x 185.5 x 27.5mm
+
+.. |weightE| replace:: 600g
+
+.. |weightP| replace:: 1500g
+
+.. |RAM| replace:: 4GB DDR3
+
+.. |eMMC| replace:: 16GB
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: 8 Channels
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 15V to 36V
+
+.. |cur| replace:: 500mA Max
+
+.. |pwr| replace:: 7.5W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |rs232| replace:: 5 x RS232
+
+.. |rs485| replace:: 2 x RS485 (Optional 4 x RS485 at most, 1 debug port)
+
+.. _product_link: https://chipsee.com/product/epc-a72-101/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.png
+
+.. |Front View| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.jpeg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Back.jpeg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-Front.jpeg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-Back.jpeg
+                  :class: product-img 
+
+.. _EPC/PPC-A72-101-C:
+
+|product|
+#########
+
+.. rubric:: *Version 1.1*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Legacy_Resources/101/overview
+
+.. include:: Legacy_Resources/101/ordering
+
+.. include:: Legacy_Resources/101/opt_features_2
+
+.. include:: Legacy_Resources/101/HW_features
+
+.. include:: Legacy_Resources/101/table
+
+.. include:: Legacy_Resources/101/power
+
+.. include:: Legacy_Resources/101/cap_screen
+
+.. include:: Legacy_Resources/101/connectivity
+
+USB Connectors
+--------------
+
+There are 4 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, and 1 x USB Type-C, as shown in the figures below.
+
+.. Figure:: /Media/ARM/A72/CS12800R101/USB2.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB 2.0 HOST Connectors (embedded/enclosed PC version)*
+
+.. Figure:: /Media/ARM/A72/CS12800R101/USB3.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB 3.0 HOST Connectors (embedded/enclosed PC version)*
+
+.. Figure:: /Media/ARM/A72/Others/USB-C.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB Type-C Connector (embedded/enclosed PC version)*
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
+
+:pagebreak:`True`
+
+.. include:: Legacy_Resources/101/LAN
+
+.. include:: Legacy_Resources/101/WiFi_BT
+
+.. include:: Legacy_Resources/101/4G_com
+
+.. include:: Legacy_Resources/101/expansion_IO
+
+.. include:: Legacy_Resources/101/TF_Card
+
+.. include:: Legacy_Resources/101/Audio_IO
+
+.. include:: Legacy_Resources/101/HDMI
+
+.. include:: Legacy_Resources/101/power_btn
+
+Mounting Procedure
+==================
+
+|Product| can be mounted with 8 x M4 screws, enabling simplified installation onto any standard mounting fixture. Other mounting options
+might also be supported according to the table in the `Hardware Features`_ section.
+
+|productE|
+----------
+You can mount |productE| with the Embedded mounting method, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A72/Others/mountE.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Embedded mounting*
+
+|productP|
+----------
+You can mount |productP| with the Panel mounting methods, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A72/Others/mountP.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Panel mounting*
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+
+You can find detailed information about mounting in the |mguide|.
+
+:pagebreak:`True`
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   |productE| *Technical Drawing*
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
+
+.. caution::
+
+    * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
+    * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support

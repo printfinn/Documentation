@@ -1,0 +1,204 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. include:: Resources/BOX-070D-070P-RA4-Shared/base_replaces_4070D
+
+.. |product| replace:: PPC-CM4-070-D
+
+.. |productE| replace:: NULL
+
+.. |productP| replace:: CS10600RA4070P-D
+
+.. |PN| replace:: PN: CS10600RA4070P-D
+
+.. |Product| replace:: The |product| industrial Pi PC
+
+.. |dispsize| replace:: 7"
+
+.. |res| replace:: 1024 x 600
+
+.. |bright| replace:: 500 |cd|
+
+.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |mounting_table| replace:: |productP|: Panel, VESA
+
+.. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 700g
+
+.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
+
+.. |dim_desc| replace:: |productP|: |dimP|
+
+.. |weight_desc| replace:: |productP|: |weightP|
+
+.. |cap_screen_conn| replace:: FPC connector
+
+.. |cur| replace:: 700mA (max); 530mA (maximum backlight, idle); 400mA (minimum backlight, idle) at 12V
+
+.. |pwr| replace:: 8.4W (max); 6.36W (maximum backlight, idle); 4.8W (minimum backlight, idle)
+
+.. |LAN| replace:: 2 x Giga LAN (**optional** PoE support for LAN0)
+
+.. _product_link: https://chipsee.com/product/ppc-cm4-070-d/
+
+.. |product_link| replace:: PPC-CM4-070-D
+
+.. |rs232_485_can_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-rs232_485_can_connectors.jpg
+                  :align: middle
+                  :width: 768
+
+.. |sim_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-sim_card.jpg
+                  :align: middle
+                  :width: 480
+
+.. |gpio_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-GPIO.jpg
+                  :align: middle
+                  :width: 1024
+
+.. |cpu_gpio_schema_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-cpu_gpio_schema.png
+                  :align: middle
+                  :width: 768
+
+.. |camera_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-camera.jpg
+                  :align: middle
+                  :width: 640
+
+.. |tf_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-TF.jpg
+                  :align: middle
+                  :width: 384                 
+
+.. |wifi_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-WIFI.jpg
+                  :align: middle
+                  :width: 640
+
+.. |power_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Power.jpg
+                  :align: middle
+                  :width: 720
+
+.. |dc_jack_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-DCJack.jpg
+                  :align: middle
+                  :width: 576
+
+.. |zigbee_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-zigbee.jpg
+                  :align: middle
+                  :width: 384     
+
+.. |ts_con_img| image:: /Media/Pi/A53/Others/TS_CON.jpeg
+                  :align: middle
+                  :width: 192                              
+
+.. |lan_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-LAN.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Audio.jpg
+                  :align: middle
+                  :width: 384
+
+.. |usb_a_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-usb-a.jpg
+                   :align: middle
+                   :width: 384
+
+.. |usb_c_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-usb-c.jpg
+                   :align: middle
+                   :width: 384
+                   
+.. |prog_btn_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-prog_btn.jpg
+                  :align: middle
+                  :width: 384
+
+.. |Cover PNG| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Front.png
+
+
+.. |Front View| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Side2.jpg
+                  :class: product-img
+
+
+.. _PPC-CM4-070-D:
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/CS10600RA4070/comparison_4070_4070D
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power_conn
+
+.. include:: Resources/BOX-070D-070P-RA4-Shared/power_jack
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/BOX-070D-070P-RA4-Shared/connectivity_table
+
+.. include:: Resources/gpio
+
+.. include:: Resources/BOX-070D-070P-RA4-Shared/gpio_table
+
+.. include:: Resources/BOX-070D-070P-RA4-Shared/cpu_gpio_4070D
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/Zigbee
+
+.. include:: Resources/camera_050_070
+
+.. include:: Resources/TF
+
+.. include:: Resources/audio_io
+
+.. include:: Resources/prog_btn
+
+.. include:: Resources/CS12800RA4101/mounting_cs12800ra4101
+
+.. include:: Resources/mechanical
+
+.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/SIZE_RK3568_070.jpg
+   :align: center
+   :figclass: align-center
+
+   |productP| Technical Drawing
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/Hardware/three_d
+
+.. include:: /PCs/Shared/support
