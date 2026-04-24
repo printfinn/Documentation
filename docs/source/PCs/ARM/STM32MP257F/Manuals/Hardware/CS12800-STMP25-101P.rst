@@ -178,7 +178,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_101
+.. include:: /PCs/Shared/Hardware/cutout/101
 
 .. rst-class:: text-center
 

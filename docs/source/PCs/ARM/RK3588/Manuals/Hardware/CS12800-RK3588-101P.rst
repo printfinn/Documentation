@@ -231,7 +231,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_101
+.. include:: /PCs/Shared/Hardware/cutout/101
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
 

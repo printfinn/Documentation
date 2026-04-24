@@ -119,7 +119,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_121
+.. include:: /PCs/Shared/Hardware/cutout/121
 
 .. figure:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Drawing.webp
    :align: center

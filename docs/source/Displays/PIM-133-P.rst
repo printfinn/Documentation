@@ -82,7 +82,7 @@ Specification
 
 .. include:: Resources/mechspecs
 
-.. include:: /PCs/Shared/Hardware/cutout_133
+.. include:: /PCs/Shared/Hardware/cutout/133
 
 :pagebreak:`True`
 

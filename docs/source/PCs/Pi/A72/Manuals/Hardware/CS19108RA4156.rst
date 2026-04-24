@@ -117,7 +117,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_156
+.. include:: /PCs/Shared/Hardware/cutout/156
 
 .. image:: /Media/Pi/A72/CS19108RA4156/CS19108RA4156-TD.png
    :align: center

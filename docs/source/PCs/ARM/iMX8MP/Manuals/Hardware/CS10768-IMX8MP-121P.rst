@@ -112,7 +112,7 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-includes
 
-.. include:: /PCs/Shared/Hardware/cutout_121
+.. include:: /PCs/Shared/Hardware/cutout/121
 
 :pagebreak:`True`
 
