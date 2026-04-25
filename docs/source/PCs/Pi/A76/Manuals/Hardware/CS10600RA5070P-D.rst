@@ -8,6 +8,8 @@
 
 .. |dimP| replace:: 188.05 x 123.11 x 33.20mm
 
+.. |dim_desc| replace:: |dimP|
+
 .. |weightP| replace:: 700g
 
 .. |dispsize| replace:: 7"
@@ -30,7 +32,7 @@
 
 .. |temp| replace:: From -10°C to +60°C
 
-.. |mounting_table| replace:: |productP|: Panel, VESA
+.. |mounting_table| replace:: Panel, VESA
 
 .. _product_link: https://chipsee.com/product/ppc-cm5-070-d/
 
