@@ -30,7 +30,7 @@
 
 .. |eMMC| replace:: 4GB
 
-.. |tscreen| replace:: 5-point capacitive and resistive touch
+.. |tscreen| replace:: 5-point capacitive touch with 1mm tempered glass and 5-point resistive touch with 1.5mm tempered glass
 
 .. |USB| replace:: 2 x USB 2.0 Host
 
