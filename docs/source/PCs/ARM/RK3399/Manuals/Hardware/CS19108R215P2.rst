@@ -2,7 +2,9 @@
 
 .. include:: /PCs/Shared/Hardware/basic/215
 
-.. |productP| replace:: PPC-A72-215-P
+.. |product| replace:: PPC-A72-215-P
+
+.. |productP| replace:: |product|
 
 .. |PN| replace:: PN: CS19108R215P2
 
@@ -33,6 +35,8 @@
 .. |pwr| replace:: 16W Typical, 26.4W Max
 
 .. |temp| replace:: From 0°C to +50°C
+
+.. |bright| replace:: |bright_shared|
 
 .. |rs232| replace:: 3 x RS232 (Optional 5 x RS232 at most, 1 debug port)
 

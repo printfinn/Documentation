@@ -18,6 +18,8 @@
 
 .. |temp| replace:: From 0°C to +50°C
 
+.. |bright| replace:: |bright_shared|
+
 .. |power_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/Power.jpg
                   :align: middle
                   :width: 480

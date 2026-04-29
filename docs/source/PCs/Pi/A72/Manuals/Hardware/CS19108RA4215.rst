@@ -20,6 +20,8 @@
 
 .. |weight_desc| replace:: |weightP|
 
+.. |bright| replace:: |bright_shared|
+
 .. _product_link: https://chipsee.com/product/PPC-CM4-215/
 
 .. |product_link| replace:: PPC-CM4-215
