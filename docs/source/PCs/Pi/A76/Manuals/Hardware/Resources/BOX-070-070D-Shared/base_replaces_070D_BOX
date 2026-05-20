@@ -54,8 +54,6 @@
 
 .. |vin_rng| replace:: From 9V to 30V (supports optional 24V ignition signal)
 
-.. |dim_desc| replace:: |productP|: |dimP|
-
-.. |weight_desc| replace:: |productP|: |weightP|
+.. |weight_desc| replace:: |weightP|
 
 

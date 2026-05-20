@@ -14,7 +14,7 @@
 
 .. |SSD| replace:: Optional, supports M.2 2280 NVME SSD (PCI-E 3.0 x 2)
 
-.. |tscreen| replace:: 10-point capacitive touch screen
+.. |tscreen| replace:: 10-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |HDMI_des| replace:: 1 x HDMI OUT
 

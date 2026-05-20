@@ -12,7 +12,7 @@
 
 .. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution, brightness |bright|
 
-.. |tscreen| replace:: 10-point capacitive touch with 1mm Armored Glass
+.. |tscreen| replace:: 10-point capacitive touch with |glass_thickness| tempered glass
 
 .. |rs232_485_can_ter| replace:: phoenix terminal
 
