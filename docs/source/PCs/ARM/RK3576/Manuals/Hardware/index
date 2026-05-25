@@ -86,6 +86,21 @@ RK3576
    <div class="col">
       <div class="index-item">
 
+15.0 Inch
+|PPC-RK3576-150|
+
+:ref:`PPC-RK3576-150<PPC-RK3576-150>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 15.6 Inch
 |PPC-RK3576-156|
 
@@ -101,10 +116,55 @@ RK3576
    <div class="col">
       <div class="index-item">
 
+17.0 Inch
+|PPC-RK3576-170|
+
+:ref:`PPC-RK3576-170<PPC-RK3576-170>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 18.5 Inch
 |PPC-RK3576-185|
 
 :ref:`PPC-RK3576-185<PPC-RK3576-185>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+19.0 Inch
+|PPC-RK3576-190|
+
+:ref:`PPC-RK3576-190<PPC-RK3576-190>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+21.5 Inch
+|PPC-RK3576-215|
+
+:ref:`PPC-RK3576-215<PPC-RK3576-215>`
 
 .. raw:: html
 
@@ -178,13 +238,29 @@ BOX
    :class: index-item-img
    :target: /PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-133P.html
 
+.. |PPC-RK3576-150| image:: /Media/ARM/RK3576/CS10768-RK3576-150P/CS10768-RK3576-150P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3576/Manuals/Hardware/CS10768-RK3576-150P.html
+
 .. |PPC-RK3576-156| image:: /Media/ARM/RK3576/CS19108-RK3576-156P/CS19108-RK3576-156P-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-156P.html
 
+.. |PPC-RK3576-170| image:: /Media/ARM/RK3576/CS12102-RK3576-170P/CS12102-RK3576-170P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3576/Manuals/Hardware/CS12102-RK3576-170P.html
+
 .. |PPC-RK3576-185| image:: /Media/ARM/RK3576/CS19108-RK3576-185P/CS19108-RK3576-185P-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-185P.html
+
+.. |PPC-RK3576-190| image:: /Media/ARM/RK3576/CS12102-RK3576-190P/CS12102-RK3576-190P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3576/Manuals/Hardware/CS12102-RK3576-190P.html
+
+.. |PPC-RK3576-215| image:: /Media/ARM/RK3576/CS19108-RK3576-215P/CS19108-RK3576-215P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-215P.html
 
 .. |CS-RK3576-BOX| image:: /Media/ARM/RK3576/CS-RK3576-BOX/CS-RK3576-BOX-Front-Low.jpg
    :class: index-item-img
@@ -201,6 +277,11 @@ BOX
    AIO-RK3576-101 </PCs/ARM/RK3576/Manuals/Hardware/CS12800-RK3576-101A>
    PPC-RK3576-121 </PCs/ARM/RK3576/Manuals/Hardware/CS10768-RK3576-121P>
    PPC-RK3576-133 </PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-133P>
+   PPC-RK3576-150 </PCs/ARM/RK3576/Manuals/Hardware/CS10768-RK3576-150P>
    PPC-RK3576-156 </PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-156P>
+   PPC-RK3576-170 </PCs/ARM/RK3576/Manuals/Hardware/CS12102-RK3576-170P>
    PPC-RK3576-185 </PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-185P>
+   PPC-RK3576-190 </PCs/ARM/RK3576/Manuals/Hardware/CS12102-RK3576-190P>
+   PPC-RK3576-215 </PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-215P>
+
    CS-RK3576-BOX </PCs/ARM/RK3576/Manuals/Hardware/CS-RK3576-BOX>
