@@ -40,6 +40,4 @@
 
 .. |opt2| replace:: Supported but depending on the CM4 selected
 
-.. |vin_rng| replace:: From 6V to 36V
-
 .. |temp| replace:: From 0°C to +60°C
