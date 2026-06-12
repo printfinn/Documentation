@@ -4,6 +4,8 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 from pathlib import Path
+import hashlib
+import shutil
 
 from docutils.parsers.rst.directives.images import Image
 from sphinx.environment import BuildEnvironment
@@ -199,9 +201,91 @@ class CustomImageDirective(Image):
         image_nodes = super().run()
         return image_nodes
 
+
+def _fingerprinted_name(path: Path) -> str:
+    digest = hashlib.sha256(path.read_bytes()).hexdigest()[:8]
+    return f"{path.stem}.{digest}{path.suffix}"
+
+
+def _fingerprinted_name_for_content(path: Path, content: str) -> str:
+    digest = hashlib.sha256(content.encode("utf-8")).hexdigest()[:8]
+    return f"{path.stem}.{digest}{path.suffix}"
+
+
+def _replace_static_references(file_path: Path, replacements: dict[str, str]) -> None:
+    text = file_path.read_text(encoding="utf-8")
+    original_text = text
+
+    for old_rel, new_rel in replacements.items():
+        text = text.replace(old_rel, new_rel)
+
+    if text != original_text:
+        file_path.write_text(text, encoding="utf-8")
+
+
+def fingerprint_static_assets(app, exception) -> None:
+    if exception is not None or app.builder.name != "html":
+        return
+
+    static_dir = Path(app.outdir).joinpath("_static")
+    if not static_dir.is_dir():
+        return
+
+    independent_assets = [
+        Path("3d_models/aliases.json"),
+        Path("vendor/google-fonts/fonts.css"),
+        Path("images/icons/carousel-control-next.svg"),
+        Path("images/icons/carousel-control-prev.svg"),
+        Path("images/icons/navbar-toggler.svg"),
+    ]
+
+    replacements: dict[str, str] = {}
+
+    for rel_path in independent_assets:
+        asset_path = static_dir.joinpath(rel_path)
+        if not asset_path.is_file():
+            continue
+
+        fingerprinted_name = _fingerprinted_name(asset_path)
+        fingerprinted_path = asset_path.with_name(fingerprinted_name)
+        shutil.copy2(asset_path, fingerprinted_path)
+
+        replacements[rel_path.as_posix()] = rel_path.with_name(fingerprinted_name).as_posix()
+
+    dependent_assets = [
+        Path("css/material_custom.css"),
+        Path("js/material_custom.js"),
+        Path("js/three_d.js"),
+    ]
+
+    for rel_path in dependent_assets:
+        asset_path = static_dir.joinpath(rel_path)
+        if not asset_path.is_file():
+            continue
+
+        text = asset_path.read_text(encoding="utf-8")
+        for old_rel, new_rel in replacements.items():
+            text = text.replace(old_rel, new_rel)
+
+        fingerprinted_name = _fingerprinted_name_for_content(asset_path, text)
+        fingerprinted_path = asset_path.with_name(fingerprinted_name)
+        fingerprinted_path.write_text(text, encoding="utf-8")
+
+        replacements[rel_path.as_posix()] = rel_path.with_name(fingerprinted_name).as_posix()
+
+    for path in Path(app.outdir).rglob("*.html"):
+        _replace_static_references(path, replacements)
+
+    for rel_path in dependent_assets:
+        asset_path = static_dir.joinpath(rel_path)
+        if asset_path.is_file():
+            _replace_static_references(asset_path, replacements)
+
+
 def setup(app):
     # Override the existing image directive with our custom image directive
     app.add_directive("image", CustomImageDirective)
+    app.connect("build-finished", fingerprint_static_assets)
 
     return {
         'version': '0.1',
