@@ -103,11 +103,23 @@ function getStaticBaseUrl() {
 
 const staticBaseUrl = getStaticBaseUrl();
 const docsBaseUrl = new URL("../", staticBaseUrl);
+const threeDModelAliases = loadThreeDModelAliases();
+
+function loadThreeDModelAliases() {
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET', new URL('3d_models/aliases.json', staticBaseUrl).href, false);
+    xhr.send();
+    return xhr.status == 200 ? JSON.parse(xhr.responseText) : {};
+}
+
+function resolveThreeDModelName(fbxName) {
+    return threeDModelAliases[fbxName] || fbxName;
+}
 
 // A helper to test if FBX 3D file exists, otherwise will remove the HTML link element in another function
 function fbxExists(fbxName) {
     let xhr = new XMLHttpRequest();
-    xhr.open('HEAD', new URL(`3d_models/${fbxName}.fbx`, staticBaseUrl).href, false);
+    xhr.open('HEAD', new URL(`3d_models/${resolveThreeDModelName(fbxName)}.fbx`, staticBaseUrl).href, false);
     xhr.send();
     return xhr.status == 200;
 }
