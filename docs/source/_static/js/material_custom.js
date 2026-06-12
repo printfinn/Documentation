@@ -96,10 +96,18 @@ if (sidebar_item != null){
     sidebar_menu.style.backgroundColor = "#f4f7f7";
 }
 
+function getStaticBaseUrl() {
+    const script = document.currentScript || document.querySelector('script[src*="/_static/js/material_custom.js"], script[src$="_static/js/material_custom.js"]');
+    return new URL("../", script.src);
+}
+
+const staticBaseUrl = getStaticBaseUrl();
+const docsBaseUrl = new URL("../", staticBaseUrl);
+
 // A helper to test if FBX 3D file exists, otherwise will remove the HTML link element in another function
 function fbxExists(fbxName) {
     let xhr = new XMLHttpRequest();
-    xhr.open('HEAD', `/docs/_static/3d_models/${fbxName}.fbx`, false);
+    xhr.open('HEAD', new URL(`3d_models/${fbxName}.fbx`, staticBaseUrl).href, false);
     xhr.send();
     return xhr.status == 200;
 }
@@ -122,7 +130,9 @@ function addParamToThreeD() {
         if (linkElem) {
             const pcName = `${pcType.toUpperCase()}-${productPN.textContent.split(' ')[0].split('-').slice(1, ).join('-')}`;
             if (fbxExists(pcName)) {
-                linkElem.href += `?productModel=${pcName}`;
+                const threeDUrl = new URL("ThreeD/three_d_model.html", docsBaseUrl);
+                threeDUrl.searchParams.set("productModel", pcName);
+                linkElem.href = threeDUrl.href;
             } else {
                 // For the three links, remove the ones that do not have actual fbx files.
                 linkElem.remove();

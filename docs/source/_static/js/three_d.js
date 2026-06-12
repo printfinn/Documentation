@@ -14,7 +14,8 @@ document.onreadystatechange = () => {
     // the query parameter is used here, to let three.js to pick up the correct 3D model file in the _static folder.
     const urlSearchParams = new URLSearchParams(window.location.search);
     const params = Object.fromEntries(urlSearchParams.entries());
-    const fbx_file = "/docs/_static/3d_models/" + params.productModel + ".fbx";
+    const staticBaseUrl = new URL("../", import.meta.url);
+    const fbx_file = new URL(`3d_models/${params.productModel}.fbx`, staticBaseUrl).href;
 
     let camera, scene, renderer;
 
