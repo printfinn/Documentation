@@ -22,7 +22,7 @@ from sphinx.util.osutil import relpath
 # -- Project information -----------------------------------------------------
 
 project = "Chipsee Documentation Sample"
-copyright = "2024, Chipsee"
+copyright = "2026, Chipsee"
 author = "Chipsee"
 version = "1.1"
 

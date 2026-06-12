@@ -1,5 +1,5 @@
 /* This file contains custom stylesheet */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('../vendor/google-fonts/fonts.css');
 
 /* Avoid fixed Top Navbar hide body */
 body { padding-top: 70px; }
@@ -286,6 +286,18 @@ a.md-source, .md-tabs__inner.md-grid > ul.md-tabs__list > li.md-tabs__item > a {
     width: 30px!important;
     background-color: #ef3d30b8;
     border-radius: 50%;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url('../images/icons/carousel-control-prev.svg') !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url('../images/icons/carousel-control-next.svg') !important;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url('../images/icons/navbar-toggler.svg') !important;
   }
 
 code,
